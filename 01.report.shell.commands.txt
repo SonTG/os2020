@@ -1,0 +1,46 @@
+root@Admin:~# echo hello word
+hello word
+root@Admin:~# passwd
+New password:
+Retype new password:
+passwd: password updated successfully
+root@Admin:~# date
+Tue 14 Jan 2020 05:16:05 AM EST
+root@Admin:~# hostname
+Admin
+root@Admin:~# arch
+x86_64
+root@Admin:~# uname -a
+Linux Admin 5.3.0-kali3-amd64 #1 SMP Debian 5.3.15-1kali1 (2019-12-09) x86_64 GNU/Linux
+root@Admin:~# dmesg
+[37621.154873] [drm] ring test on 3 succeeded in 4 usecs
+[37621.154881] [drm] ring test on 4 succeeded in 4 usecs
+[37621.330603] [drm] ring test on 5 succeeded in 2 usecs
+[37621.330608] [drm] UVD initialized successfully.
+[37621.330669] [drm] ib test on ring 0 succeeded in 0 usecs
+[37621.330732] [drm] ib test on ring 1 succeeded in 0 usecs
+[37621.330780] [drm] ib test on ring 2 succeeded in 0 usecs
+[37621.330814] [drm] ib test on ring 3 succeeded in 0 usecs
+[37621.330846] [drm] ib test on ring 4 succeeded in 0 usecs
+[37622.009224] [drm] ib test on ring 5 succeeded
+root@Admin:~/Desktop# uptime
+ 05:19:26 up 11:41,  1 user,  load average: 0.62, 0.57, 0.57
+root@Admin:~/Desktop# who am i
+root@Admin:~/Desktop# whoami
+root
+root@Admin:~/Desktop# who
+root     tty7         2020-01-13 17:39 (:0)
+root@Admin:~/Desktop# id
+uid=0(root) gid=0(root) groups=0(root)
+root@Admin:~/Desktop# last
+root     tty7         :0               Mon Jan 13 17:39   still logged in
+
+wtmp begins Fri Dec 20 13:57:13 2019
+root@Admin:~/Desktop# finger
+Login     Name       Tty      Idle  Login Time   Office     Office Phone
+root      root       tty7    11:41  Jan 13 17:39 (:0)
+root@Admin:~/Desktop# w
+ 05:20:03 up 11:41,  1 user,  load average: 0.72, 0.59, 0.58
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+root     tty7     :0               17:39   11:41m 47:27  47:27  /usr/lib/xorg/Xorg :0 -seat seat0 -au
+

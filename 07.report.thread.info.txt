@@ -1,0 +1,6 @@
+vdhieu@Admin:~$ ps -o nlwp 59481
+  58
+
+vdhieu@Admin:~$ ls /proc/59481/task | wc -w
+  56
+  

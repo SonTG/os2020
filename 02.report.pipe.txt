@@ -1,0 +1,18 @@
+root@Admin:~# ls | grep list
+root@Admin:~# wc -l /etc/passwd
+54 /etc/passwd
+root@Admin:~# free
+              total        used        free      shared  buff/cache   available
+Mem:        8136024     2028432     4716216      348744     1391376     5454432
+Swap:       8300540       12272     8288268
+
+root@Admin:~# cat /proc/cpuinfo | grep core
+core id         : 0
+cpu cores       : 2
+core id         : 1
+cpu cores       : 2
+
+root@Admin:~/Downloads# find *.jpg | wc -l
+8
+
+

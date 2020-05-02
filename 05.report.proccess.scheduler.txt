@@ -1,0 +1,14 @@
+/proc/sched_debug
+
+vdhieu@Admin:~$ cat /proc/sched_debug | grep -e systemd | awk '{print $5}'
+120
+2746650
+1014
+1642
+35074
+
+/proc/<processID>/sched
+
+vdhieu@Admin:~$ cat /proc/1/sched | grep nr_switches
+nr_switches                                  :              2762212
+
